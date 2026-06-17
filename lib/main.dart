@@ -13,6 +13,9 @@ import 'screens/order_confirmation_screen.dart';
 import 'screens/profile_screen.dart';
 import 'screens/customers_screen.dart';
 import 'screens/api_users_screen.dart';
+import 'screens/network_posts_screen.dart';
+import 'screens/customer_visits_screen.dart';
+import 'screens/customer_visit_report_screen.dart';
 import 'models/product.dart';
 import 'models/cart_item.dart';
 
@@ -116,6 +119,9 @@ class FreshMartApp extends StatelessWidget {
         AppConstants.routeProfile: (context) => const ProfileScreen(),
         AppConstants.routeCustomers: (context) => const CustomersScreen(),
         AppConstants.routeApiUsers: (context) => const ApiUsersScreen(),
+        AppConstants.routeNetworkPosts: (context) => const NetworkPostsScreen(),
+        AppConstants.routeCustomerVisits: (context) => const CustomerVisitsScreen(),
+        AppConstants.routeCustomerVisitReport: (context) => const CustomerVisitReportScreen(),
       },
       onGenerateRoute: (settings) {
         if (settings.name == AppConstants.routeProductDetail) {

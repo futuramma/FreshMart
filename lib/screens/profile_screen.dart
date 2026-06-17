@@ -237,17 +237,17 @@ class _ProfileScreenState extends State<ProfileScreen>
                                     AppConstants.routeHome, (r) => false);
                               }),
                               const Divider(color: AppColors.divider),
-                              // Week 4 — SQLite Customer Record Management
+                              // Customer Record Management
                               _buildActionRow(
                                   Icons.people_outlined,
-                                  'Manage Customers (Week 4)',
+                                  'Manage Customers',
                                   () => Navigator.pushNamed(
                                       context, AppConstants.routeCustomers)),
                               const Divider(color: AppColors.divider),
-                              // Week 5 — REST API Networking
+                              // REST API Networking
                               _buildActionRow(
                                   Icons.cloud_outlined,
-                                  'API Users — Networking (Week 5)',
+                                  'API Users Directory',
                                   () => Navigator.pushNamed(
                                       context, AppConstants.routeApiUsers)),
                               const Divider(color: AppColors.divider),

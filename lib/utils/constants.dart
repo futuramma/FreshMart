@@ -20,10 +20,14 @@ class AppConstants {
   static const String tableCustomers = 'customers';
   static const String tableProducts = 'products';
   static const String tableOrders = 'orders';
+  static const String tablePostsCache = 'posts_cache';
+  static const String tableCustomerVisits = 'customer_visits';
 
   // Networking
   static const String apiUsersUrl =
       'https://jsonplaceholder.typicode.com/users';
+  static const String apiPostsUrl =
+      'https://jsonplaceholder.typicode.com/posts';
 
   // Routes
   static const String routeSplash = '/';
@@ -36,6 +40,9 @@ class AppConstants {
   static const String routeProfile = '/profile';
   static const String routeCustomers = '/customers';
   static const String routeApiUsers = '/api-users';
+  static const String routeNetworkPosts = '/network-posts';
+  static const String routeCustomerVisits = '/customer-visits';
+  static const String routeCustomerVisitReport = '/customer-visit-report';
 
   // UI dimensions
   static const double borderRadius = 16.0;
